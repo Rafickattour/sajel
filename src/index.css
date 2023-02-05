@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+  --silver: #D9D9D9;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+*::selection {
+  color: #fff;
+  background: #ff0038;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: 'Open Sans', 'Lato', sans-serif;
+  background: url(/public/UI_Page.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.centered {
+  margin: 3rem auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: var(--silver);
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+@media (max-width:991px) {
+  html {
+    min-height: 100%;
+  }
+}

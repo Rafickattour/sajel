@@ -1,0 +1,64 @@
+.list {
+    width: 26rem;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    max-height: 13.45rem;
+    padding: 0 1rem;
+    overflow: hidden auto;
+    border-radius: 4px;
+    background-color: rgb(45, 45, 45);
+}
+
+.list::-webkit-scrollbar {
+    width: .3rem;
+}
+
+.list::-webkit-scrollbar-track {
+    background: rgb(45, 45, 45);
+}
+
+.list::-webkit-scrollbar-thumb {
+    background-color: var(--silver);
+    border-radius: 10px 0 0 10px;
+}
+
+.toast {
+    padding: 10px;
+    color: var(--silver);
+    position: fixed;
+    top: 12vh;
+    scale: 0;
+    opacity: 0;
+    border-radius: 5px;
+    background-color: #222;
+    transform-origin: center;
+    transition: all .4s ease-in-out;
+}
+
+.toast.show {
+    scale: 1;
+    opacity: 1;
+}
+
+@media (width <=788px) {
+    .list {
+        width: 23rem;
+    }
+
+    .toast {
+        top: 14vh;
+        font-size: clamp(.9rem, 2vw, 1.5rem);
+    }
+}
+
+@media (width <=550px) {
+    .list {
+        width: 17rem;
+    }
+
+    .toast {
+        top: 12vh;
+        font-family: calibri;
+    }
+}

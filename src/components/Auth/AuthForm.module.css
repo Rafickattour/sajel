@@ -1,0 +1,64 @@
+.flip-card {
+    rotate: y 360deg;
+}
+
+.error {
+    padding: .3rem .5rem;
+    color: var(--silver);
+    font-size: 1.15rem;
+    font-weight: bold;
+    font-family: calibri;
+    border-radius: 4px;
+    background-color: #ff0038;
+}
+
+.actions {
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.actions button {
+    cursor: pointer;
+    font: inherit;
+    color: var(--silver);
+    background-color: #ff0038;
+    border: 1px solid #ff0038;
+    border-radius: 4px;
+    padding: 0.5rem 2.5rem;
+}
+
+.actions button:hover {
+    background-color: #dd0030;
+}
+
+.actions span {
+    display: flex;
+    align-items: center;
+    color: rgb(70, 70, 70);
+    margin-top: .5rem;
+}
+
+.actions hr {
+    width: 8rem;
+    margin: 0 .4rem;
+    border: 1px inset #ff0038;
+}
+
+.actions .toggle {
+    color: #ff0038;
+    border: none;
+    padding: 0.15rem 1.5rem;
+    background-color: transparent;
+}
+
+.actions .toggle:hover {
+    background-color: transparent;
+}
+
+@media (width <=480px) {
+    .actions hr {
+        width: 7rem;
+    }
+}

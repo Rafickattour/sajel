@@ -1,0 +1,25 @@
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item p {
+    color: var(--silver);
+    font-size: 1.4rem;
+    font-family: calibri;
+}
+
+.item span {
+    display: none;
+    cursor: pointer;
+    color: #D9D9D9;
+}
+
+.item span:hover {
+    color: gray;
+}
+
+.item:hover span {
+    display: block;
+}

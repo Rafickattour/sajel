@@ -1,0 +1,23 @@
+.reviews {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.reviews p:nth-child(2) {
+    margin: 3rem auto;
+    padding: .5rem 1rem;
+    color: var(--silver);
+    font-size: 1.15rem;
+    font-weight: bold;
+    font-family: calibri;
+    border-radius: 4px;
+    background: rgb(45, 45, 45);
+}
+
+@media (width <=788px) {
+    .reviews p:nth-child(2) {
+        font-size: 1rem;
+    }
+}

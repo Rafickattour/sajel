@@ -1,0 +1,37 @@
+.control {
+    margin-bottom: 0.5rem;
+}
+
+.box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.control label {
+    display: block;
+    color: var(--silver);
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.control input {
+    font: inherit;
+    font-size: medium;
+    font-weight: bold;
+    border: none;
+    padding: 0.25rem;
+    border-radius: 4px;
+    background-color: var(--silver);
+}
+
+.control input:focus {
+    background: white;
+    outline-color: white;
+    box-shadow: -6px -6px 12px #c5c5c5;
+}
+
+@media (width <=480px) {
+    .control input {
+        width: 12rem;
+    }
+}

@@ -1,0 +1,10 @@
+.card {
+    margin: 3rem auto;
+    padding: 1rem;
+    overflow: hidden;
+    border-radius: 6px;
+    transition: rotate .8s;
+    width: clamp(17rem, 50% + 10vw, 19rem);
+    box-shadow: 15px 15px 30px rgba(0, 0, 0, .2),
+        -15px -15px 30px rgba(0, 0, 0, .2);
+}

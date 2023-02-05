@@ -1,0 +1,41 @@
+.form {
+    margin: 1rem auto;
+}
+
+.error {
+    padding: .3rem .5rem;
+    color: var(--silver);
+    font-size: 1.15rem;
+    font-weight: bold;
+    font-family: calibri;
+    border-radius: 4px;
+    text-align: center;
+    background-color: #ff0038;
+}
+
+.action {
+    margin-top: 4.5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.action button {
+    font: inherit;
+    cursor: pointer;
+    color: var(--silver);
+    padding: .5rem 1rem;
+    background-color: #ff0038;
+    border: 1px solid #ff0038;
+    border-radius: 4px;
+}
+
+.action button:hover {
+    background-color: #dd0030;
+}
+
+@media (width <=550px) {
+    .error {
+        font-size: clamp(1rem, 2vw, 1.15rem);
+    }
+}
