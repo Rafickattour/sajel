@@ -103,7 +103,7 @@ const AuthForm = () => {
                     id='email'
                     label='Email'
                     icon={<FiMail color='#D9D9D9' size={30} />}
-                    type='text'
+                    type='email'
                     ref={emailInputRef} />
                 <Input
                     id='password'
