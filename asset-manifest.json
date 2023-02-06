@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/sajel/static/css/main.59483fed.css",
-    "main.js": "/sajel/static/js/main.38464e5f.js",
+    "main.js": "/sajel/static/js/main.9da6e090.js",
     "static/css/622.aa5c2e1d.chunk.css": "/sajel/static/css/622.aa5c2e1d.chunk.css",
     "static/js/622.8affe1a4.chunk.js": "/sajel/static/js/622.8affe1a4.chunk.js",
     "static/js/425.ac89a76c.chunk.js": "/sajel/static/js/425.ac89a76c.chunk.js",
     "static/media/UI_Page.jpg": "/sajel/static/media/UI_Page.808a86cc8974d4be0e75.jpg",
     "index.html": "/sajel/index.html",
     "main.59483fed.css.map": "/sajel/static/css/main.59483fed.css.map",
-    "main.38464e5f.js.map": "/sajel/static/js/main.38464e5f.js.map",
+    "main.9da6e090.js.map": "/sajel/static/js/main.9da6e090.js.map",
     "622.aa5c2e1d.chunk.css.map": "/sajel/static/css/622.aa5c2e1d.chunk.css.map",
     "622.8affe1a4.chunk.js.map": "/sajel/static/js/622.8affe1a4.chunk.js.map",
     "425.ac89a76c.chunk.js.map": "/sajel/static/js/425.ac89a76c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.59483fed.css",
-    "static/js/main.38464e5f.js"
+    "static/js/main.9da6e090.js"
   ]
 }
